@@ -1,0 +1,58 @@
+#container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    color:black
+}
+#cabecalho{
+    background-color: rgb(125, 160, 160);
+    width: 100%;
+    padding: 20px; 
+    text-align: center; 
+}
+.slogan{
+    font-size: medium;
+}
+.carousel-item img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 600px;   
+    padding: 20px;
+    margin: auto;
+}
+.tituloCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+}
+.equipe{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 30px 30px;
+}
+.formulario input, .formulario select, .formulario button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Esse ultimo formulario, é para a largura e o alinhamento */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    width: 20%;
+    margin: 0 auto;
+}
